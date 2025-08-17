@@ -24,7 +24,7 @@ Balvidya is an AI-powered educational assistant that helps students (Classes 5th
 7.  Answer is displayed in the Streamlit chat interface.
 
 ## 📂 Project Structure
-
+```bash 
 Balvidya/
 ├── app.py              # Main Streamlit entry point
 ├── rag.py              # RAG pipeline (embeddings, vector store, QA)
@@ -33,7 +33,7 @@ Balvidya/
 ├── requirements.txt    # Python dependencies
 ├── documents/          # Study material (class/subject DOCX files)
 └── vectorstore/        # Auto-generated FAISS indexes
-
+```
 ## ⚙️ Setup & Installation
 1.  **Clone repository**
     ```bash
