@@ -2,7 +2,7 @@
 Balvidya is an AI-powered educational assistant that helps students (Classes 5th–10th) ask subject-specific questions and receive concise, accurate answers. It uses a Retrieval-Augmented Generation (RAG) pipeline powered by Google Gemini models and integrates with Streamlit for an interactive chat interface.
 
 ## 🚀 Features
-- **Class & Subject Selection** – Supports multiple classes (5th–10th) and their subjects (Mathematics, Science, English, Physics, Chemistry, Biology, etc.).
+- **Class & Subject Selection** – Supports multiple classes (5th–10th) and their subjects (Mathematics, Science, English).
 - **RAG Pipeline** – Uses FAISS vector stores for retrieving subject-relevant content from .docx study materials.
 - **Document Parsing** – Reads and splits class-specific documents into chunks for embedding.
 - **Embeddings & LLM** – Uses Google Generative AI embeddings (`models/embedding-001`) and Gemini chat model (`models/gemini-1.5-flash`).
