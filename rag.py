@@ -74,7 +74,7 @@ def load_and_chunk_docx(path):
     if not full_text.strip():
         raise ValueError("Document is empty")
     
-    splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=50)
+    splitter = RecursiveCharacterTextSplitter(chunk_size=150, chunk_overlap=10)
     return splitter.split_text(full_text)
 
 def create_vector_store(class_name, subject):
